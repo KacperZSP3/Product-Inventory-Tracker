@@ -20,11 +20,11 @@ class Program
 
         if (stock > 0)
         {
-            Console.WriteLine($"Remaining stock: {stock}");
+            Console.WriteLine("Out of Stock");
         }
         else
         {
-            Console.WriteLine("Out of Stock");
+            Console.WriteLine($"Remaining stock: {stock}");
         }
     }
 }
